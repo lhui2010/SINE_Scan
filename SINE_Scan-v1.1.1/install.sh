@@ -1,0 +1,1 @@
+perl SINE_Scan_Installer.pl -d $PWD -a $PWD/sine-finder.py -f /ds3200_1/proc/ncbi-blast-2.8.0+/bin/makeblastdb -b /ds3200_1/proc/ncbi-blast-2.8.0+/bin/blastn -c /ds3200_1/proc/cd-hit-v4.6.8-2017-1208/cd-hit-est -M /ds3200_1/proc/muscle/muscle -l /ds3200_1/proc/bedtools2/bin/bedtools -e /usr/local/bin/stretcher -S SINEBase/SineDatabase.fasta -R  RNABase/RNAsbase.fasta  
